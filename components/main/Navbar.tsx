@@ -20,7 +20,7 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            Hamad's Portfolio
+            Hamad Gul
           </span>
         </a>
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-row gap-5">
           {Socials.map((socials) => (
-            <img
+            <Image
               src={socials.src}
               alt={socials.name}
               key={socials.name}
